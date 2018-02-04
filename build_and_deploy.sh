@@ -8,6 +8,7 @@ echo bulid client ...
 
 mkdir -p build
 cp index.html build/
+cp -r images build/
 
 echo reset $DEPLOY branch to $DEVEL ...
 git fetch -f . $DEVEL:$DEPLOY
